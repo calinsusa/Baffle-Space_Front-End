@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+
+body {
+  background-color: #121212;
+  height: 100%;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main-container {
+width: 90vw;
+height: 100vh;
+/* padding-top: 20vh; */
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: space-evenly;
+margin: auto;
+flex-wrap: wrap;
+/* flex-flow: row wrap; */
+
+}
+
+.container-slider {
+ 
+  width: 700px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+
+}
+
+.container-data {
+width: 350px;
+
+
+/* padding: 30px; */
+color: #fff;
+font-weight: 300;
+display: flex;
+align-items: flex-start;
+align-content: center;
+flex-direction: column;
+}
+p {
+  font-weight: 100;
+  margin: 0;
+  color: darkgray;
+}
+
+h3 {
+  color: darkgray;
+
+}
+
+.slider {
+  width: 100%;
+}
+
+.container-buttons {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.user-income-counter {
+   padding-bottom: 30px;
+  font-weight: 900;
+  font-size: 125px;
+  color: #fff;
+
+}  
+
+.dinamic-data-style {
+  color: deepskyblue;
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+.MuiSlider-markLabel {
+  color:rgb(91, 91, 91) !important;
+
+}
+
+
